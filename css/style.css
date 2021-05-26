@@ -34,6 +34,7 @@ body {
 .button-primary {
   padding: 15px 30px;
   background: #1A75E8;
+  border-radius: 5px
   color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
