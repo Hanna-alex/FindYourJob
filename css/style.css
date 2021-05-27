@@ -4,7 +4,6 @@
 }
 
 body {
-  margin: 0;
   font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
   color: #111238;
@@ -29,10 +28,19 @@ body {
   text-decoration: none;
 }
 
+.menu-link:hover {
+  color: #1A75E8;
+}
+
+.menu-link:active {
+  opacity: 0.4;
+}
+
 .button {
   display: inline-block;
   text-decoration: none;
   border: none;
+  cursor: pointer;
 }
 
 .button-link {
@@ -41,12 +49,20 @@ body {
   color: #111238;
 }
 
+.button-link:hover {
+  color: #1A75E8;
+}
+
 .button-primary {
   padding: 15px 30px;
   background: #1A75E8;
   border-radius: 5px;
   font-size: 16px;
   color: #fff;
+}
+
+.button-primary:hover {
+  box-shadow: 2px 4px 5px #6868689c;
 }
 
 .button-icon {
@@ -79,6 +95,10 @@ body {
   border: none;
   font-size: 16px;
   line-height: 19px;
+}
+
+.input:hover {
+  border-bottom: 1px solid #111238;
 }
 
 .input:focus {
@@ -138,5 +158,113 @@ body {
 
 .card-icon {
   margin-bottom: 15px;
+}
+
+.offer {
+  margin-bottom: 20px;
+  padding: 30px;
+  border: 1px solid #C5C9D5;
+  border-radius: 10px;
+}
+
+.offer-img {
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #F2F3F6;
+  border-radius: 50%;
+  background: #fff url(../img/logo-company.png) no-repeat center center/contain;
+}
+
+.offer-title {
+  margin-right: 46px;
+}
+
+.offer-heading {
+  margin-bottom: 10px;
+  font-weight: bold;
+  line-height: 19px;
+}
+
+.offer-place {
+  font-size: 14px;
+  line-height: 17px;
+  opacity: 0.8;
+}
+
+.offer-salary {
+  margin-right: 62px;
+  padding: 10px 25px;
+  background: #1A75E8;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: bold;
+  line-height: 19px;
+}
+
+.offer-more {
+  margin-left: auto;
+  margin-right: 25px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A75E8;
+  text-decoration: none;
+}
+
+.subscribe {
+  background: #F2F3F6;
+}
+
+.subscribe-title {
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.subscribe-subtitle {
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.footer {
+  padding: 70px 0 100px 0;
+}
+
+.footer-description, .footer-copyright {
+  margin-bottom: 12px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #B2B2B2;
+}
+
+.footer-title {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111238;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list-item {
+  margin-bottom: 10px;
+}
+
+.footer-list-link {
+  line-height: 19px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-list-link:hover {
+  color: #1A75E8;
 }
 /*# sourceMappingURL=style.css.map */
