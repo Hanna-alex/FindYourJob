@@ -1,8 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   margin: 0;
   font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
   color: #111238;
+}
+
+.header {
+  background: #F2F3F6;
 }
 
 .menu {
@@ -23,6 +32,7 @@ body {
 .button {
   display: inline-block;
   text-decoration: none;
+  border: none;
 }
 
 .button-link {
@@ -35,6 +45,98 @@ body {
   padding: 15px 30px;
   background: #1A75E8;
   border-radius: 5px;
+  font-size: 16px;
   color: #fff;
+}
+
+.button-icon {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.button-text {
+  vertical-align: middle;
+}
+
+.hero-title {
+  margin-top: 43px;
+  margin-bottom: 15px;
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.hero-text {
+  margin-bottom: 30px;
+  width: 460px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.input {
+  padding-left: 15px;
+  flex-grow: 1;
+  background-color: #fff;
+  border: none;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.input:focus {
+  outline: 1px dotted #666;
+}
+
+.input-group {
+  margin-bottom: 25px;
+  padding: 10px;
+  background: #FFFFFF;
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+  border-radius: 5px;
+}
+
+.tags-group {
+  padding-left: 15px;
+  color: #B2B2B2;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.tag {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: 1px solid #B2B2B2;
+  border-radius: 5px;
+  color: #B2B2B2;
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.section-title {
+  margin-bottom: 40px;
+}
+
+.card {
+  padding: 35px;
+  text-decoration: none;
+  color: #111238;
+  fill: #111238;
+  background: #F2F3F6;
+  border-radius: 10px;
+  transition: 02s;
+}
+
+.card:hover {
+  fill: #fff;
+  color: #fff;
+  background: #1A75E8;
+  transition: 02s;
+}
+
+.card-icon {
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */
