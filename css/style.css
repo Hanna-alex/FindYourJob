@@ -114,6 +114,10 @@ img {
   line-height: 19px;
 }
 
+.input:focus {
+  outline: 1px dotted #666;
+}
+
 .input-group {
   margin-bottom: 25px;
   padding: 10px;
@@ -126,10 +130,6 @@ img {
 
 .input-group:hover {
   background-color: #a3dcf5a1;
-}
-
-.input-group:focus {
-  outline: 1px dotted #666;
 }
 
 .tags-group {
